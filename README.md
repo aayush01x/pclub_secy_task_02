@@ -3,6 +3,8 @@ A model capable of predicting the lung tidal volume on the basis of factors such
 ### Steps to run code: 
 Download the dataset dataset.xlsx and the ipynb file task2.ipynb and just run the jupyter file !
 
+dataset_ch.xlsx is processed version of dataset.xlsx with no extra irrelevant features.
+
 ### Approach
 1. Preprocessed data in xlsx file to remove irrelevant factors and dropped the rows with nan value.
 2. Tried first basic approach of applying Linear Regression with every feature.
